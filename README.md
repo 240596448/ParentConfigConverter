@@ -1,2 +1,2 @@
-# ParentConfigurationsToGit
-Версионирование файла ParentConfigurations.bin
+# Что это?
+Инструментарий для версионирования файла `ParentConfigurations.bin`
