@@ -1,0 +1,2 @@
+# ParentConfigurationsToGit
+Версионирование файла ParentConfigurations.bin
