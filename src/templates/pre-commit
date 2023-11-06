@@ -1,2 +1,3 @@
 #!/bin/sh
+echo 'Запуск хука: {appname} convert' 
 {appname} convert --file '{file}' '{src}' && git add **/{file}
