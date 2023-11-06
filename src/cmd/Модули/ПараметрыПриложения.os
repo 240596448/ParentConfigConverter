@@ -4,7 +4,7 @@
 
 Функция Имя() Экспорт
 	
-	Возврат "ParentConfigConvertеr";
+	Возврат "ParentConfigConverter";
 	
 КонецФункции
 

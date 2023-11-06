@@ -1,2 +1,2 @@
 #!/bin/sh
-ParentConfigConvertеr convert --file '{file}' '{src}' && git add **/{file}
+{appname} convert --file '{file}' '{src}' && git add **/{file}
