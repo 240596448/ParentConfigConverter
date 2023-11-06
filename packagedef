@@ -1,5 +1,8 @@
-Описание.Имя("ParentConfigConvertor")
-		.Версия("0.1.0")
-		.ВерсияСреды("1.7.0")
-		.ВключитьФайл("src")
-		.ВключитьФайл("README.md");
+Описание.Имя("ParentConfigConverter")
+	.Версия("1.0.0")
+	.Автор("Vladimir Nadulich")
+	.АдресАвтора("vladimir.nadulich@gmail.com")
+	.ВерсияСреды("1.7.0")
+	.ВключитьФайл("src")
+	.ВключитьФайл("README.md")
+	.ИсполняемыйФайл("src/cmd/main.os", "ParentConfigConverter");
