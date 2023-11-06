@@ -10,10 +10,12 @@
 				.ТСтрока()
 				.Обязательный(Истина);
 
-	Команда.Опция("file", "Ext/ParentConfigurations.bin", "Относительный путь к файлу ParentConfigurations.bin внутри каталога исходников")
+	Команда.Опция("file", "Ext/ParentConfigurations.bin", 
+				"Относительный путь к файлу ParentConfigurations.bin внутри каталога исходников")
 				.ТСтрока();
 				
-	Команда.Опция("dump", "ConfigDumpInfo.xml", "Путь к файлу ConfigDumpInfo.xml внутри каталога исходников")
+	Команда.Опция("dump", "ConfigDumpInfo.xml", 
+				"Путь к файлу ConfigDumpInfo.xml внутри каталога исходников")
 				.ТСтрока();
 				
 	Команда.Опция("bak backup", Ложь, "Сохранять оригинальный файл в ParentConfigurations.bin.bak")
