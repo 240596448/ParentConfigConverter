@@ -2,5 +2,5 @@
 if [ -n "$(git status --porcelain | grep {file})" ]    # {appname} 
 then    # {appname} 
     echo 'Запуск pre-commit хука: {appname} convert' 
-    {appname} convert --file '{file}' '{src}' && git add **/{file}
+    {appname} convert --file {file} {src} && git add {src}/{file}
 fi      # {appname}
