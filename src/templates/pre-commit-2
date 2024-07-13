@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo '<?xml version="1.0" encoding="UTF-8"?>' > {repo}/{dump_cache}     # {appname}
+grep -Po 'name=".+?" id=".+?"' ${dump_file} | grep -vP 'id=".+\.' | perl -pe 's/(.+)/<$1\/>/' > {repo}/{dump_cache}     # {appname}
+git add {repo}/{dump_cache}     # {appname}
+
+if [ -n "$(git status --porcelain | grep {in_file})" ]      # {appname} 
+then    # {appname} 
+    echo 'Запуск pre-commit хука: {appname} convert' 
+    {appname} convert --in={in_file} --out={out_file} --dump={dump_file} {repo} && git add {out_file}
+fi      # {appname}
