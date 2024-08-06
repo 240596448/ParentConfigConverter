@@ -3,7 +3,7 @@
 	Команда.Аргумент("REPO", ".", "Путь к git-репозиторию")
 				.ТСтрока();
 
-	Команда.Опция("in mod", "src/Ext/ParentConfigurations_mod.bin", 
+	Команда.Опция("in mod", "mod/ParentConfigurations_mod.bin", 
 				"Относительный путь к сконвертированному файлу ParentConfigurations_mod.bin внутри репозитория")
 				.ТСтрока();
 
