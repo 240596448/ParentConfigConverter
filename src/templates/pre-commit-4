@@ -1,3 +1,2 @@
 #!/bin/sh
-echo 'Запуск pre-commit хука: {appname} dump-cache' 
-{appname} dump-cache --dump={dump_file} --out={dump_cache} {repo} && git add {dump_cache}
+if test -f {dump_file}; then echo 'Запуск pre-commit хука: {appname} dump-cache' && {appname} dump-cache --dump={dump_file} --out={dump_cache} {repo} && git add {dump_cache}; fi
