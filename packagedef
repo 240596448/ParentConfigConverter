@@ -1,5 +1,5 @@
 Описание.Имя("ParentConfigConverter")
-	.Версия("1.4.1")
+	.Версия("1.4.2")
 	.Автор("Vladimir Nadulich")
 	.АдресАвтора("vladimir.nadulich@gmail.com")
 	.ВерсияСреды("1.8.4")
